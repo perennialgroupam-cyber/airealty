@@ -1446,23 +1446,42 @@ button, input, select, textarea {
   gap: 1.25rem;
 }
 .experience-card {
-  background-color: rgba(247, 243, 237, 0.65);
+  background-color: #FFFFFF;
   border: 1px solid var(--ivory-border);
-  padding: 1.75rem 1rem;
-  border-radius: 2px;
+  padding: 1.5rem 1rem 1.25rem;
+  border-radius: 4px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  min-height: 8.5rem;
+  min-height: 11.5rem;
   transition: all var(--transition-fast);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 .experience-card:hover {
   background-color: #FFFFFF;
-  border-color: rgba(198, 161, 91, 0.5);
-  box-shadow: var(--shadow-subtle);
-  transform: translateY(-2px);
+  border-color: rgba(198, 161, 91, 0.65);
+  box-shadow: var(--shadow-luxury);
+  transform: translateY(-4px);
+}
+.exp-logo-wrap {
+  height: 52px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+  padding: 0 0.5rem;
+}
+.exp-logo-img {
+  max-height: 48px;
+  max-width: 110px;
+  object-fit: contain;
+  transition: transform var(--transition-fast);
+}
+.experience-card:hover .exp-logo-img {
+  transform: scale(1.08);
 }
 .exp-tag {
   font-size: 0.625rem;

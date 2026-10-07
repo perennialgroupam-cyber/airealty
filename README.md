@@ -113,7 +113,8 @@ ai-realty/
 │   ├── Udyam_Registration_Certificate_AI_Realty.pdf
 │   └── BMC_Registration_Certificate_AI_Realty.pdf
 ├── images/                 # Root asset directory for direct relative paths
-│   └── client/             # Official logo, leader portraits, brand cards, about architecture photo
+│   └── client/             # Official logo, leader portraits, brand cards, architecture photos
+│       └── logos/          # Official logos (Atlantic, L&T, Oberoi, VITS, HDFC, IBM, Essar, Kumar, Toyota, Silver Point)
 ├── client document/        # Original client WhatsApp images, documents & photos
 └── README.md               # Documentation
 ```
