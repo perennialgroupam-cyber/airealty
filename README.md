@@ -1,9 +1,4 @@
-# AI Realty — Luxury Corporate Real-Estate Website
-
-[![Built with React](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
-[![Vite](https://img.shields.io/badge/Vite-8.3-646CFF?logo=vite)](https://vitejs.dev/)
+# AI Realty — Luxury Corporate Real-Estate Website (HTML, CSS & JavaScript)
 
 A premium, luxury corporate real-estate web application for **AI Realty**, backed by **Perennial Group** (a construction company established in 1996). 
 
@@ -37,55 +32,57 @@ Engineered specifically for the Mumbai metropolitan landscape, catering to high-
 - **Primary Text**: `#1B1B1B` (Charcoal)
 - **Typography**:
   - Headings: *Playfair Display* (Editorial Serif)
-  - Body: *Inter* / *Manrope* (Modern Sans-Serif)
+  - Body: *Inter* (Modern Sans-Serif)
 
 ---
 
-## ✨ Features
+## 📁 Repository Structure
 
-- **Sticky Luxury Navigation**: Seamless transition from transparent hero state to warm ivory with burgundy typography on scroll, accompanied by an animated mobile drawer.
-- **Cinematic Hero**: Mumbai skyline backdrop with multi-layered burgundy gradient overlays, subtle parallax motion, and clear strategic CTAs.
-- **Burgundy Trust Block**: Highlighting the 1996 foundation, 1000+ satisfied customers, 3 core verticals, and Mumbai focus.
-- **Interactive Expertise Showcase**: 3 large hover-interactive cards with image scaling, gold borders, and animated arrows.
-- **5-Stage SRA Process Timeline**: Responsive horizontal desktop and vertical mobile timeline illustrating the rehabilitation lifecycle.
-- **6-Phase Redevelopment Roadmap**: Visualizing society consensus, architectural feasibility, municipal approvals, and transformation.
-- **Filterable Project Portfolio**: Clean category filtering (`All`, `Land`, `SRA`, `Redevelopment`) with compliant placeholders.
-- **Monochrome Client Associations**: Displaying organizations cited in company material (*L&T, VITS, Toyota Showroom, HDFC Bank, Kumar Builders, Atlantic Wind*) with mandatory attribution disclosure.
-- **Interactive Leadership Showcase**: Multi-view photography switcher featuring the founder across 4 professional contexts (*Executive Portrait*, *Planning & Legal*, *Penthouse Advisory*, and *Site Execution*).
-- **Perennial Group Heritage**: Timeline tracing the 1996 civil construction legacy to modern metropolitan development.
-- **Multi-Audience Consultation**: Tailored pathways for *Landowners*, *Societies*, and *Development Partners* with interactive inquiry modal and floating WhatsApp concierge.
+```
+ai-realty/
+├── index.html              # Complete standalone HTML5 website
+├── css/
+│   └── style.css           # Premium vanilla CSS with complete luxury design & responsiveness
+├── js/
+│   └── script.js           # Vanilla JavaScript for interactive features
+├── images/                 # Root asset directory for direct relative paths
+│   └── client/             # Official logo, leader portraits, brand cards
+├── client document/        # Original client WhatsApp images & documents
+└── README.md               # Documentation
+```
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Run
 
-### Prerequisites
-- Node.js (v18+)
-- npm (v9+)
+### Option 1: Direct Open (Zero Setup)
+Simply double-click `index.html` to open the website directly in any web browser (Chrome, Edge, Safari, Firefox). No Node.js or installation required!
 
-### Installation
-
+### Option 2: Local HTTP Server
+Using Python:
 ```bash
-# Clone the repository
-git clone https://github.com/shamshadkhan36/ai-realty.git
-cd ai-realty
+python -m http.server 3000
+```
+Open `http://localhost:3000` in your browser.
 
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
+Using Node / Live Server:
+```bash
+npx serve .
 ```
 
-### Production Build
+---
 
-```bash
-# Type check and bundle production build
-npm run build
+## ✨ Interactive Features Included
 
-# Preview production build locally
-npm run preview
-```
+- **Sticky Luxury Navigation**: Transparent on hero, transitioning smoothly to warm ivory with burgundy typography on scroll.
+- **Mobile Hamburger Drawer**: Responsive slide-out navigation for mobile and tablet devices.
+- **Interactive Leadership Photo Switcher**: View the founder across 4 professional dimensions (*Executive Portrait*, *Planning & Legal*, *Penthouse Advisory*, and *Site Execution*).
+- **Project Category Filtering**: Instant client-side filtering across *All*, *Land Acquisition*, *SRA Projects*, and *Redevelopment*.
+- **5-Stage SRA Process Timeline**: Interactive step selector for the Slum Rehabilitation Authority lifecycle.
+- **Audience Pathway Selector**: Interactive selection for *Landowners*, *Societies*, and *Development Partners*.
+- **Global Consultation Modal**: Pre-populated mandate inquiry modal with validation and submission feedback.
+- **Contact Form**: Direct enquiry processing with confirmation states.
+- **Floating WhatsApp Concierge**: Instant chat button with dismissible advisory notification.
 
 ---
 
