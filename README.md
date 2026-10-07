@@ -8,12 +8,22 @@ Engineered specifically for the Mumbai metropolitan landscape, catering to high-
 
 ## 🏛️ Executive Leadership & Corporate Profile
 
-- **Founder & Director**: **Shri Ajit Baliram Mhamunkar** (Mr. Ajit B. Mhamunkar)
-- **Nature of Business**: Civil Contractor & Real Estate Development Advisory
-- **Direct Phone & WhatsApp**: `+91 81081 48889`
-- **Official Email**: `perennialgroup@yahoo.com`
-- **Registered Corporate Office**:  
+- **Founder & CEO**: **Ajit Mhamunkar** (Shri Ajit Baliram Mhamunkar)
+- **Official Web Portal**: [airealty.net.in](https://airealty.net.in)
+- **Corporate Headquarters**:  
+  15, Sundra Niwas, opp HBT troma care hospital, Near W.E highway, Jogeshwari (E) Mumbai 400 060, Maharashtra  
+  *(Landmark: Opp H.B.T. Trauma Care Municipal Hospital • Near Western Express Highway • BMC KE Ward)*
+- **Statutory Registered Office**:  
   Shop No. 15, Sundrabai Chawl, Pratap Nagar, Jogeshwari-Vikhroli Link Road (JVLR), Jogeshwari (East), Mumbai - 400060, Maharashtra
+- **Telephone & Advisory Directory**:
+  - **Toll-Free & Direct Advisory**: `+91 81081 48889`
+  - **Mumbai Regional Lines**: `+91 81081 48887` • `+91 88985 07995`
+  - **Gujarat Regional Desk**: `+91 73595 29343`
+- **Official Email Directory**:
+  - **Project Mandates (Land / SRA / Redevelopment)**: `property@airealty.net.in`
+  - **Sales & Commercial Desk**: `sales@airealty.net.in`
+  - **Executive Directorate**: `ajit@airealty.net.in`, `akash@airealty.net.in`, `revant@airealty.net.in`, `ikabal@airealty.net.in`
+  - **Perennial Group Statutory Desk**: `perennialgroup@yahoo.com`
 - **Guiding Motto**: *"Customer satisfaction is our ultimate goal."*
 
 ---

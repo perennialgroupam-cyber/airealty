@@ -703,15 +703,17 @@
         <div class="gold-divider"></div>
       </div>
 
-      <!-- Transparency Notice -->
+      <!-- Portfolio Overview -->
       <div class="projects-disclaimer-box">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--gold-dark)" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-        <span><strong>Editorial Notice:</strong> Project titles, geographical locations, and milestones below use clearly identified placeholders until final client-verified disclosures are provided.</span>
+        <span><strong>Portfolio Overview:</strong> Featuring AI Realty's active and upcoming landmark developments, including <strong>Shree Chandika Devi Grahnirman Sanstha (SRA)</strong> and <strong>Shalom CHS</strong>, alongside strategic pipeline mandates.</span>
       </div>
 
       <!-- Filter Buttons -->
       <div class="filter-tabs">
         <button class="filter-btn active" data-filter="all">All Opportunities</button>
+        <button class="filter-btn" data-filter="current">★ Current Projects</button>
+        <button class="filter-btn" data-filter="upcoming">Upcoming Projects</button>
         <button class="filter-btn" data-filter="land">Land Acquisition</button>
         <button class="filter-btn" data-filter="sra">SRA Projects</button>
         <button class="filter-btn" data-filter="redevelopment">Redevelopment</button>
@@ -719,27 +721,85 @@
 
       <!-- Project Cards Grid -->
       <div class="projects-grid">
-        <!-- 01: Land -->
-        <div class="project-card" data-category="land">
+        <!-- 01: SRA - Current Project -->
+        <div class="project-card" data-category="sra current">
           <div class="project-card-image">
-            <img src="images/client/Picsart_26-10-06_20-32-46-161.jpg" alt="Strategic Land Acquisition & Development Opportunity" />
-            <span class="project-pill">Land Acquisition & Development</span>
+            <img src="images/client/shree-chandika-devi-sra.jpeg" alt="Shree Chandika Devi Grahnirman Sanstha (SRA) - Current Project" />
+            <span class="project-pill current">★ Current Project</span>
             <div class="project-status-bar">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span>Due Diligence & Masterplanning Phase [Placeholder]</span>
+              <span>Current Project • Active Execution Phase</span>
             </div>
           </div>
           <div class="project-card-body">
             <div>
               <div class="project-location">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold-dark)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span>Western Suburban Corridor, Mumbai [Placeholder]</span>
+                <span>Mumbai Metropolitan Region</span>
               </div>
-              <h3 class="project-name">Strategic Land Opportunity [Placeholder]</h3>
-              <p class="project-desc">Facilitating a strategic multi-acre land parcel evaluation with integrated development potential along key transit arterials.</p>
+              <h3 class="project-name">Shree Chandika Devi Grahnirman Sanstha (SRA)</h3>
+              <p class="project-desc">A flagship active high-rise slum rehabilitation initiative delivering structured tenant transit, regulatory compliance, and premium residential sale towers under the SRA framework.</p>
             </div>
             <div class="project-card-footer">
-              <span class="project-footer-note">[Placeholder Record]</span>
+              <span class="project-footer-note" style="color: var(--gold-dark); font-weight: 600;">Active SRA Development</span>
+              <button class="project-inquire-btn" data-open-modal data-interest="Shree Chandika Devi SRA Inquiry">
+                <span>Inquire</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 02: Redevelopment - Upcoming Project -->
+        <div class="project-card" data-category="redevelopment upcoming">
+          <div class="project-card-image">
+            <img src="images/client/shalom-chs-redevelopment.jpeg" alt="Shalom CHS - Upcoming Society Redevelopment" />
+            <span class="project-pill upcoming">Upcoming Project</span>
+            <div class="project-status-bar">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Upcoming Project • Planning & Structuring</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div>
+              <div class="project-location">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold-dark)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Mumbai Suburban</span>
+              </div>
+              <h3 class="project-name">Shalom CHS (Co-operative Housing Society)</h3>
+              <p class="project-desc">Upcoming landmark society redevelopment structured to optimize FSI/TDR potential, provide hardship financial compensation, and construct a modern architectural residential tower.</p>
+            </div>
+            <div class="project-card-footer">
+              <span class="project-footer-note" style="color: var(--gold-dark); font-weight: 600;">Upcoming Redevelopment</span>
+              <button class="project-inquire-btn" data-open-modal data-interest="Shalom CHS Redevelopment Inquiry">
+                <span>Inquire</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 03: Land -->
+        <div class="project-card" data-category="land current">
+          <div class="project-card-image">
+            <img src="images/client/Picsart_26-10-06_20-32-46-161.jpg" alt="Strategic Land Acquisition & Development Opportunity" />
+            <span class="project-pill">Land Acquisition</span>
+            <div class="project-status-bar">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Active Mandate • Due Diligence & Structuring</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div>
+              <div class="project-location">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold-dark)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Western Suburban Corridor, Mumbai</span>
+              </div>
+              <h3 class="project-name">Strategic Land Assemblage Mandate</h3>
+              <p class="project-desc">Facilitating a strategic multi-acre land parcel evaluation with integrated development potential along key transit arterials with verified title due diligence.</p>
+            </div>
+            <div class="project-card-footer">
+              <span class="project-footer-note" style="color: var(--gold-dark); font-weight: 600;">Development Mandate</span>
               <button class="project-inquire-btn" data-open-modal data-interest="Land Opportunity Inquiry">
                 <span>Inquire</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
@@ -748,85 +808,27 @@
           </div>
         </div>
 
-        <!-- 02: SRA -->
-        <div class="project-card" data-category="sra">
-          <div class="project-card-image">
-            <img src="images/client/slumst_1612943223.jpg" alt="Metropolitan SRA Project Development Cluster" />
-            <span class="project-pill">SRA Project Development</span>
-            <div class="project-status-bar">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span>Stakeholder Alignment & Planning Phase [Placeholder]</span>
-            </div>
-          </div>
-          <div class="project-card-body">
-            <div>
-              <div class="project-location">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold-dark)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span>Central Mumbai Suburban Cluster [Placeholder]</span>
-              </div>
-              <h3 class="project-name">Metropolitan SRA Initiative [Placeholder]</h3>
-              <p class="project-desc">Structured rehabilitation initiative focused on sustainable community housing combined with high-grade modern sale towers.</p>
-            </div>
-            <div class="project-card-footer">
-              <span class="project-footer-note">[Placeholder Record]</span>
-              <button class="project-inquire-btn" data-open-modal data-interest="SRA Project Inquiry">
-                <span>Inquire</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- 03: Redevelopment -->
-        <div class="project-card" data-category="redevelopment">
-          <div class="project-card-image">
-            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1000&q=80" alt="Society Redevelopment Landmark" />
-            <span class="project-pill">Society Redevelopment</span>
-            <div class="project-status-bar">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span>Society Consensus & Structuring Phase [Placeholder]</span>
-            </div>
-          </div>
-          <div class="project-card-body">
-            <div>
-              <div class="project-location">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold-dark)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span>South-Central Mumbai [Placeholder]</span>
-              </div>
-              <h3 class="project-name">Society Redevelopment Landmark [Placeholder]</h3>
-              <p class="project-desc">Transforming an established cooperative housing society into an architectural landmark with modern lifestyle amenities.</p>
-            </div>
-            <div class="project-card-footer">
-              <span class="project-footer-note">[Placeholder Record]</span>
-              <button class="project-inquire-btn" data-open-modal data-interest="Redevelopment Inquiry">
-                <span>Inquire</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- 04: Land -->
-        <div class="project-card" data-category="land">
+        <!-- 04: Land Infill -->
+        <div class="project-card" data-category="land upcoming">
           <div class="project-card-image">
             <img src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1000&q=80" alt="Urban Infill Land Parcel" />
-            <span class="project-pill">Land Acquisition & Development</span>
+            <span class="project-pill upcoming">Upcoming Land Mandate</span>
             <div class="project-status-bar">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span>Title Verification & Feasibility [Placeholder]</span>
+              <span>Title Verification & Feasibility</span>
             </div>
           </div>
           <div class="project-card-body">
             <div>
               <div class="project-location">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold-dark)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span>Eastern Express Corridor, Mumbai [Placeholder]</span>
+                <span>Eastern Express Corridor, Mumbai</span>
               </div>
-              <h3 class="project-name">Urban Infill Land Parcel [Placeholder]</h3>
-              <p class="project-desc">Advisory and structuring for clear-title land holding earmarked for mixed-use or commercial grade redevelopment.</p>
+              <h3 class="project-name">Urban Infill Land Development</h3>
+              <p class="project-desc">Advisory and structuring for clear-title land holding earmarked for mixed-use or commercial grade redevelopment with arterial connectivity.</p>
             </div>
             <div class="project-card-footer">
-              <span class="project-footer-note">[Placeholder Record]</span>
+              <span class="project-footer-note" style="color: var(--gold-dark); font-weight: 600;">Pipeline Mandate</span>
               <button class="project-inquire-btn" data-open-modal data-interest="Land Parcel Inquiry">
                 <span>Inquire</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
@@ -835,28 +837,28 @@
           </div>
         </div>
 
-        <!-- 05: SRA -->
-        <div class="project-card" data-category="sra">
+        <!-- 05: SRA Cluster -->
+        <div class="project-card" data-category="sra upcoming">
           <div class="project-card-image">
-            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1000&q=80" alt="Community Renewal SRA Cluster" />
-            <span class="project-pill">SRA Project Development</span>
+            <img src="images/client/slumst_1612943223.jpg" alt="Metropolitan SRA Project Development Cluster" />
+            <span class="project-pill upcoming">Upcoming SRA Scheme</span>
             <div class="project-status-bar">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span>Regulatory Submission & Advisory [Placeholder]</span>
+              <span>Stakeholder Alignment & Biometric Phase</span>
             </div>
           </div>
           <div class="project-card-body">
             <div>
               <div class="project-location">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold-dark)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span>Western Harbor Vicinity, Mumbai [Placeholder]</span>
+                <span>Central Mumbai Suburban Cluster</span>
               </div>
-              <h3 class="project-name">Community Renewal SRA Cluster [Placeholder]</h3>
-              <p class="project-desc">Facilitating comprehensive urban regeneration through structured rehabilitation and infrastructure integration.</p>
+              <h3 class="project-name">Metropolitan SRA Cluster Initiative</h3>
+              <p class="project-desc">Structured rehabilitation initiative focused on sustainable community housing combined with high-grade modern sale towers and social infrastructure.</p>
             </div>
             <div class="project-card-footer">
-              <span class="project-footer-note">[Placeholder Record]</span>
-              <button class="project-inquire-btn" data-open-modal data-interest="SRA Cluster Inquiry">
+              <span class="project-footer-note" style="color: var(--gold-dark); font-weight: 600;">Upcoming Scheme</span>
+              <button class="project-inquire-btn" data-open-modal data-interest="SRA Project Inquiry">
                 <span>Inquire</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
               </button>
@@ -864,34 +866,35 @@
           </div>
         </div>
 
-        <!-- 06: Redevelopment -->
-        <div class="project-card" data-category="redevelopment">
+        <!-- 06: Redevelopment Residential -->
+        <div class="project-card" data-category="redevelopment upcoming">
           <div class="project-card-image">
-            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80" alt="Premier Residential Redevelopment" />
-            <span class="project-pill">Society Redevelopment</span>
+            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1000&q=80" alt="Society Redevelopment Landmark" />
+            <span class="project-pill upcoming">Upcoming Redevelopment</span>
             <div class="project-status-bar">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span>Architectural Design & Approvals [Placeholder]</span>
+              <span>Society Consensus & Section 79A Structuring</span>
             </div>
           </div>
           <div class="project-card-body">
             <div>
               <div class="project-location">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold-dark)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span>Prime Suburban Sub-Market, Mumbai [Placeholder]</span>
+                <span>South-Central Mumbai</span>
               </div>
-              <h3 class="project-name">Premier Residential Redevelopment [Placeholder]</h3>
-              <p class="project-desc">Replacing aged residential fabric with earthquake-resistant luxury high-rise construction, rooftop amenities, and multi-tier parking.</p>
+              <h3 class="project-name">Prime Cooperative Society Redevelopment</h3>
+              <p class="project-desc">Transforming an established cooperative housing society into an architectural landmark with modern lifestyle amenities, bank guarantees, and hardship corpus.</p>
             </div>
             <div class="project-card-footer">
-              <span class="project-footer-note">[Placeholder Record]</span>
-              <button class="project-inquire-btn" data-open-modal data-interest="Residential Redevelopment Inquiry">
+              <span class="project-footer-note" style="color: var(--gold-dark); font-weight: 600;">Upcoming Mandate</span>
+              <button class="project-inquire-btn" data-open-modal data-interest="Redevelopment Inquiry">
                 <span>Inquire</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
               </button>
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   </section>
@@ -1135,16 +1138,22 @@
           </div>
 
           <div class="leadership-photo-bottom-plate">
-            <span class="leadership-role-tag">Founder / Director</span>
-            <h4 class="leadership-director-name">Shri Ajit Baliram Mhamunkar</h4>
+            <span class="leadership-role-tag">Founder & CEO</span>
+            <h4 class="leadership-director-name">Ajit Mhamunkar</h4>
             <p id="leaderContextText" class="leadership-context-sub">Executive Leadership & Strategic Direction</p>
           </div>
         </div>
 
-        <!-- 4-View Switcher Thumbnails -->
+        <!-- 6-View Switcher Thumbnails -->
         <div class="leadership-thumbnails">
           <button class="thumb-btn active" data-img="images/client/leader-portrait-main.jpeg" data-badge="Executive Portrait" data-context="Executive Leadership & Strategic Direction" aria-label="View Executive Portrait">
             <img src="images/client/leader-portrait-main.jpeg" alt="Executive Portrait Thumbnail" />
+          </button>
+          <button class="thumb-btn" data-img="images/client/Picsart_26-10-02_20-01-08-584.png" data-badge="Corporate Directorate" data-context="Directorate Leadership & AI Realty Vision" aria-label="View Corporate Directorate">
+            <img src="images/client/Picsart_26-10-02_20-01-08-584.png" alt="Corporate Directorate Thumbnail" />
+          </button>
+          <button class="thumb-btn" data-img="images/client/Picsart_26-10-02_06-06-38-988.jpg" data-badge="Future Vision" data-context="Pioneering Mumbai Urban Transformation" aria-label="View Future Vision">
+            <img src="images/client/Picsart_26-10-02_06-06-38-988.jpg" alt="Future Vision Thumbnail" />
           </button>
           <button class="thumb-btn" data-img="images/client/leader-portrait-blueprint.jpeg" data-badge="Planning & Legal" data-context="Architectural Due Diligence & SRA Structuring" aria-label="View Blueprint Session">
             <img src="images/client/leader-portrait-blueprint.jpeg" alt="Blueprint Session Thumbnail" />
@@ -1177,19 +1186,22 @@
 
         <div>
           <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.22em; color: var(--gold-dark); font-weight: 600; display: block;">
-            Founder / Director & Licensed Civil Contractor
+            Founder & CEO
           </span>
-          <h3 style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--charcoal); margin-top: 0.25rem;">
-            Shri Ajit Baliram Mhamunkar
+          <h3 style="font-family: var(--font-serif); font-size: 1.65rem; color: var(--charcoal); margin-top: 0.25rem;">
+            Ajit Mhamunkar
           </h3>
+          <span style="font-size: 0.8125rem; color: var(--gold-dark); font-weight: 500; display: block; margin-top: 0.15rem;">
+            (Shri Ajit Baliram Mhamunkar • Licensed Civil Contractor)
+          </span>
         </div>
 
         <div class="leadership-bio-paragraphs">
           <p>
-            Backed by the stated experience of <strong>Perennial Group</strong> since 1996, AI Realty is spearheaded by <strong>Shri Ajit Baliram Mhamunkar</strong>, combining nearly three decades of civil contracting expertise with specialized transaction structuring for landowners, housing societies, and institutional partners across Mumbai.
+            Backed by the stated experience of <strong>Perennial Group</strong> since 1996, AI Realty is spearheaded by Founder & CEO <strong>Ajit Mhamunkar</strong> (Shri Ajit Baliram Mhamunkar), combining nearly three decades of civil contracting expertise with specialized transaction structuring for landowners, housing societies, and institutional partners across Mumbai.
           </p>
           <p>
-            Holding official Government of India MSME certification and Brihanmumbai Municipal Corporation (BMC) licensing in civil contracting, Shri Mhamunkar directs operations from title scrutiny and society General Body consensus through Slum Rehabilitation Authority (SRA) execution and final key handover — ensuring every project is <em>carried through from paperwork to possession</em>.
+            Holding official Government of India MSME certification and Brihanmumbai Municipal Corporation (BMC) licensing in civil contracting, Mr. Mhamunkar directs operations from title scrutiny and society General Body consensus through Slum Rehabilitation Authority (SRA) execution and final key handover — ensuring every project is <em>carried through from paperwork to possession</em>.
           </p>
         </div>
 
@@ -1520,36 +1532,102 @@
         </div>
 
         <div class="contact-details-list">
+          <!-- Corporate Office -->
           <div class="contact-detail-item">
             <div class="contact-detail-icon">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
             </div>
             <div>
-              <h4 class="contact-detail-title">Registered Corporate Office</h4>
-              <p class="contact-detail-text">Shop No. 15, Sundrabai Chawl, Pratap Nagar, Jogeshwari-Vikhroli Link Road (JVLR), Jogeshwari (East), Mumbai - 400060</p>
-              <span class="contact-detail-sub" style="font-size: 0.75rem; color: var(--gold-dark); display: block; margin-top: 0.25rem;">BMC KE Ward Jurisdiction • Landmark: Near Shailesh Garage, JVLR</span>
+              <h4 class="contact-detail-title">Corporate Headquarters</h4>
+              <p class="contact-detail-text" style="font-weight: 400; color: var(--charcoal);">
+                15, Sundra Niwas, opp HBT troma care hospital, Near W.E highway, Jogeshwari (E) Mumbai 400 060
+              </p>
+              <span class="contact-detail-sub" style="font-size: 0.75rem; color: var(--gold-dark); display: block; margin-top: 0.25rem;">
+                Landmark: Opp H.B.T. Trauma Care Municipal Hospital • Near Western Express Highway • BMC KE Ward Jurisdiction
+              </span>
             </div>
           </div>
 
+          <!-- Phone Directory -->
           <div class="contact-detail-item">
             <div class="contact-detail-icon">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             </div>
-            <div>
-              <h4 class="contact-detail-title">Advisory Desk & Direct Contact</h4>
-              <a href="tel:+918108148889" class="contact-detail-text" style="font-weight: 600; color: var(--burgundy); font-size: 1.15rem; text-decoration: none;">+91 81081 48889</a>
-              <span class="contact-detail-sub" style="font-size: 0.75rem; color: var(--charcoal-secondary); display: block; margin-top: 0.25rem;">Direct Communication Line to Shri Ajit Baliram Mhamunkar</span>
+            <div style="flex: 1;">
+              <h4 class="contact-detail-title">Telephone & Advisory Directory</h4>
+              
+              <div class="contact-phone-group">
+                <div class="contact-phone-row">
+                  <span class="contact-phone-badge primary">Toll-Free & Direct</span>
+                  <a href="tel:+918108148889" class="contact-phone-link primary">+91 81081 48889</a>
+                </div>
+                <div class="contact-phone-row">
+                  <span class="contact-phone-badge">Mumbai Regional</span>
+                  <a href="tel:+918108148887" class="contact-phone-link">+91 81081 48887</a>
+                  <span style="color: var(--gold-dark); font-size: 0.8rem;">|</span>
+                  <a href="tel:+918898507995" class="contact-phone-link">+91 88985 07995</a>
+                </div>
+                <div class="contact-phone-row">
+                  <span class="contact-phone-badge">Gujarat Regional</span>
+                  <a href="tel:+917359529343" class="contact-phone-link">+91 73595 29343</a>
+                </div>
+              </div>
+              <span class="contact-detail-sub" style="font-size: 0.75rem; color: var(--charcoal-secondary); display: block; margin-top: 0.35rem;">
+                Monday – Saturday: 9:30 AM – 7:30 PM IST • Direct consultation with Senior Advisory
+              </span>
             </div>
           </div>
 
+          <!-- Official Portal & Email Communications -->
           <div class="contact-detail-item">
             <div class="contact-detail-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
             </div>
-            <div>
-              <h4 class="contact-detail-title">Official Communications</h4>
-              <a href="mailto:perennialgroup@yahoo.com" class="contact-detail-text" style="color: var(--burgundy); font-weight: 600; text-decoration: none;">perennialgroup@yahoo.com</a>
-              <p style="font-size: 0.75rem; color: var(--charcoal-secondary); margin-top: 0.25rem;">Corporate Desk • Monday – Saturday: 10:00 AM – 7:00 PM IST</p>
+            <div style="flex: 1;">
+              <h4 class="contact-detail-title">Official Portal & Email Directory</h4>
+              
+              <div class="contact-email-group">
+                <div>
+                  <a href="https://airealty.net.in" target="_blank" rel="noopener noreferrer" class="contact-website-badge">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                    airealty.net.in
+                  </a>
+                </div>
+
+                <div>
+                  <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--burgundy); font-weight: 600; display: block; margin-bottom: 0.25rem;">Corporate Departments:</span>
+                  <div class="contact-email-pills">
+                    <a href="mailto:property@airealty.net.in" class="contact-email-pill" title="Land, SRA & Redevelopment Proposals">
+                      <span class="pill-tag">Mandates:</span> property@airealty.net.in
+                    </a>
+                    <a href="mailto:sales@airealty.net.in" class="contact-email-pill" title="Commercial & Residential Projects Sales">
+                      <span class="pill-tag">Sales:</span> sales@airealty.net.in
+                    </a>
+                  </div>
+                </div>
+
+                <div>
+                  <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--burgundy); font-weight: 600; display: block; margin-bottom: 0.25rem;">Executive Directorate:</span>
+                  <div class="contact-email-pills">
+                    <a href="mailto:ajit@airealty.net.in" class="contact-email-pill" title="Shri Ajit Baliram Mhamunkar - Founder & CEO">
+                      <span class="pill-tag">Founder & CEO:</span> ajit@airealty.net.in
+                    </a>
+                    <a href="mailto:akash@airealty.net.in" class="contact-email-pill">
+                      akash@airealty.net.in
+                    </a>
+                    <a href="mailto:revant@airealty.net.in" class="contact-email-pill">
+                      revant@airealty.net.in
+                    </a>
+                    <a href="mailto:ikabal@airealty.net.in" class="contact-email-pill">
+                      ikabal@airealty.net.in
+                    </a>
+                  </div>
+                </div>
+
+                <div style="font-size: 0.75rem; color: var(--charcoal-secondary); margin-top: 0.1rem;">
+                  Statutory & Perennial Group Desk: <a href="mailto:perennialgroup@yahoo.com" style="color: var(--burgundy); font-weight: 500; text-decoration: underline;">perennialgroup@yahoo.com</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1632,7 +1710,70 @@
         </div>
       </div>
     </div>
-  </section>
+
+    <!-- Interactive Office Location & Directional Map Block -->
+    <div id="office-map" class="office-location-card">
+      <div class="office-location-info">
+        <div class="office-location-badge">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Corporate Headquarters</span>
+        </div>
+        <h3 class="office-location-title">Visit Our Corporate Office</h3>
+        <p class="office-location-address">
+          <strong>15, Sundra Niwas</strong>, Opp. HBT Trauma Care Hospital, Near Western Express Highway, Jogeshwari (East), Mumbai – 400 060, Maharashtra
+        </p>
+        
+        <div class="office-landmarks-list">
+          <div class="office-landmark-item">
+            <div class="landmark-dot"></div>
+            <div>
+              <strong>Primary Landmark:</strong> Directly opposite H.B.T. Trauma Care Municipal Hospital
+            </div>
+          </div>
+          <div class="office-landmark-item">
+            <div class="landmark-dot"></div>
+            <div>
+              <strong>Highway Proximity:</strong> Less than 100 meters from Western Express Highway (WEH)
+            </div>
+          </div>
+          <div class="office-landmark-item">
+            <div class="landmark-dot"></div>
+            <div>
+              <strong>Suburban Transit:</strong> Jogeshwari (E) Station (5 mins) • Gundavali / WEH Metro Line (4 mins)
+            </div>
+          </div>
+        </div>
+
+        <div class="office-directions-actions">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=HBT+Trauma+Care+Hospital,+Western+Express+Highway,+Jogeshwari+East,+Mumbai,+Maharashtra+400060" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+            Get Directions
+          </a>
+          <a href="https://maps.google.com/?q=HBT+Trauma+Care+Hospital,+Western+Express+Highway,+Jogeshwari+East,+Mumbai,+Maharashtra+400060" target="_blank" rel="noopener noreferrer" class="btn btn-outline-burgundy btn-sm">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            Open in Google Maps
+          </a>
+        </div>
+      </div>
+
+      <!-- Interactive Google Map Frame -->
+      <div class="office-map-frame-wrap">
+        <iframe 
+          title="AI Realty Corporate Headquarters Location Map"
+          src="https://maps.google.com/maps?q=HBT+Trauma+Care+Hospital,+Western+Express+Highway,+Jogeshwari+East,+Mumbai,+Maharashtra+400060&t=&z=16&ie=UTF8&iwloc=B&output=embed" 
+          class="office-map-iframe"
+          loading="lazy" 
+          allowfullscreen 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <div class="map-overlay-tag">
+          <div class="map-pin-pulse"></div>
+          <span>AI Realty Office • Jogeshwari (E)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- ========================================================================
        FOOTER
@@ -1685,15 +1826,25 @@
 
         <!-- Corporate Office Col -->
         <div>
-          <h4 class="footer-col-title">Registered Office</h4>
+          <h4 class="footer-col-title">Corporate Headquarters</h4>
           <p style="font-size: 0.8125rem; color: rgba(247, 243, 237, 0.75); font-weight: 300; line-height: 1.6; margin-bottom: 0.5rem;">
-            Shop No. 15, Sundrabai Chawl, Pratap Nagar, Jogeshwari-Vikhroli Link Road (JVLR), Jogeshwari (E), Mumbai - 400060
+            15, Sundra Niwas, opp HBT troma care hospital, Near W.E highway, Jogeshwari (E), Mumbai 400 060
           </p>
           <p style="font-size: 0.8125rem; color: var(--gold); margin-bottom: 0.25rem;">
-            Direct: <a href="tel:+918108148889" style="color: var(--gold); text-decoration: none;">+91 81081 48889</a>
+            Toll-Free / Direct: <a href="tel:+918108148889" style="color: var(--gold); text-decoration: none; font-weight: 600;">+91 81081 48889</a>
           </p>
-          <p style="font-size: 0.8125rem; color: rgba(247, 243, 237, 0.85); margin-bottom: 0.5rem;">
-            Email: <a href="mailto:perennialgroup@yahoo.com" style="color: inherit; text-decoration: none;">perennialgroup@yahoo.com</a>
+          <p style="font-size: 0.75rem; color: rgba(247, 243, 237, 0.85); margin-bottom: 0.25rem;">
+            Mumbai: <a href="tel:+918108148887" style="color: inherit; text-decoration: none;">+91 81081 48887</a> • <a href="tel:+918898507995" style="color: inherit; text-decoration: none;">+91 88985 07995</a>
+          </p>
+          <p style="font-size: 0.75rem; color: rgba(247, 243, 237, 0.85); margin-bottom: 0.4rem;">
+            Gujarat: <a href="tel:+917359529343" style="color: inherit; text-decoration: none;">+91 73595 29343</a>
+          </p>
+          <p style="font-size: 0.8125rem; color: var(--gold-pale); margin-bottom: 0.35rem;">
+            Web: <a href="https://airealty.net.in" target="_blank" rel="noopener noreferrer" style="color: var(--gold); text-decoration: underline;">airealty.net.in</a>
+          </p>
+          <p style="font-size: 0.75rem; color: rgba(247, 243, 237, 0.85); margin-bottom: 0.5rem; line-height: 1.5;">
+            Email: <a href="mailto:property@airealty.net.in" style="color: inherit; text-decoration: none;">property@airealty.net.in</a><br />
+            Founder & CEO: <a href="mailto:ajit@airealty.net.in" style="color: inherit; text-decoration: none;">ajit@airealty.net.in</a>
           </p>
           <div style="font-size: 0.6875rem; color: var(--gold-pale); border-top: 1px solid rgba(198, 161, 91, 0.2); padding-top: 0.5rem; margin-top: 0.5rem; line-height: 1.6;">
             <span>MSME: UDYAM-MH-19-0082843</span><br />
@@ -1704,8 +1855,11 @@
             <a href="https://wa.me/918108148889" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="WhatsApp">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
             </a>
-            <a href="mailto:perennialgroup@yahoo.com" class="footer-social-btn" aria-label="Email">
+            <a href="mailto:property@airealty.net.in" class="footer-social-btn" aria-label="Email AI Realty">
               <svg viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l9.518 7.713 9.518-7.713v11.817h-19.036z"/></svg>
+            </a>
+            <a href="https://airealty.net.in" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Website">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
             </a>
           </div>
         </div>

@@ -77,8 +77,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const filterVal = btn.getAttribute('data-filter');
 
       projectCards.forEach(card => {
-        const cat = card.getAttribute('data-category');
-        if (filterVal === 'all' || cat === filterVal) {
+        const cat = card.getAttribute('data-category') || '';
+        const categories = cat.split(/\s+/);
+        if (filterVal === 'all' || categories.includes(filterVal)) {
           card.style.display = 'flex';
           card.style.animation = 'fadeIn 0.4s ease';
         } else {
