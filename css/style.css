@@ -761,6 +761,34 @@ button, input, select, textarea {
   color: var(--ivory);
 }
 
+.group-comp-badge {
+  display: inline-block;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--charcoal);
+  background: #FFFFFF;
+  border: 1px solid rgba(198, 161, 91, 0.4);
+  border-radius: 2px;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+.group-comp-badge.link {
+  color: var(--burgundy);
+  font-weight: 600;
+}
+.group-comp-badge.link:hover {
+  background: var(--burgundy);
+  color: #FFFFFF;
+  border-color: var(--burgundy);
+}
+.group-comp-badge.active {
+  background: var(--burgundy);
+  color: #FFFFFF;
+  border-color: var(--burgundy);
+  font-weight: 600;
+}
+
 .about-features {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1414,7 +1442,7 @@ button, input, select, textarea {
 }
 .experience-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1.25rem;
 }
 .experience-card {

@@ -14,6 +14,38 @@ Engineered specifically for the Mumbai metropolitan landscape, catering to high-
 - **Official Email**: `perennialgroup@yahoo.com`
 - **Registered Corporate Office**:  
   Shop No. 15, Sundrabai Chawl, Pratap Nagar, Jogeshwari-Vikhroli Link Road (JVLR), Jogeshwari (East), Mumbai - 400060, Maharashtra
+- **Guiding Motto**: *"Customer satisfaction is our ultimate goal."*
+
+---
+
+## 🏗️ Technical Engineering & Group Portfolio
+
+- **Engineering Credentials & Affiliations**:
+  - B.Tech Civil IIT Mumbai
+  - M.I.E. Chartered Engineers
+  - Structural Audits & Physical Inspections
+  - NDTS (Non-Destructive Testing)
+  - Comprehensive Project Management
+
+- **Perennial Group of Companies**:
+  - Perennial Construction
+  - Perennial Club & Resorts Pvt. Ltd.
+  - Saathpherein.com ([saathpherein.com](https://saathpherein.com))
+  - Perennial Foundation
+  - AI Realty
+
+- **1000+ Satisfied Customers & Institutional Experience**:
+  - Larsen & Toubro (L&T)
+  - Oberoi Builders & Developers
+  - IBM
+  - HDFC Bank
+  - Essar
+  - Toyota Showroom
+  - VITS Hotels
+  - Kumar Properties
+  - Silver Point
+  - Atlantic Wind Infrastructure Pvt. Ltd.
+  - and many more
 
 ---
 
@@ -72,7 +104,7 @@ The website features verified statutory certifications from the Government of In
 
 ```
 ai-realty/
-├── index.html              # Complete standalone HTML5 website with credentials section
+├── index.html              # Standalone HTML5 website with credentials & client details
 ├── css/
 │   └── style.css           # Premium vanilla CSS with complete luxury design & responsiveness
 ├── js/
@@ -81,8 +113,8 @@ ai-realty/
 │   ├── Udyam_Registration_Certificate_AI_Realty.pdf
 │   └── BMC_Registration_Certificate_AI_Realty.pdf
 ├── images/                 # Root asset directory for direct relative paths
-│   └── client/             # Official logo, leader portraits, brand cards
-├── client document/        # Original client WhatsApp images & documents
+│   └── client/             # Official logo, leader portraits, brand cards, about architecture photo
+├── client document/        # Original client WhatsApp images, documents & photos
 └── README.md               # Documentation
 ```
 
