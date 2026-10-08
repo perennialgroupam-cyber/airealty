@@ -17,12 +17,12 @@ Engineered specifically for the Mumbai metropolitan landscape, catering to high-
   Shop No. 15, Sundrabai Chawl, Pratap Nagar, Jogeshwari-Vikhroli Link Road (JVLR), Jogeshwari (East), Mumbai - 400060, Maharashtra
 - **Telephone & Advisory Directory**:
   - **Toll-Free & Direct Advisory**: `+91 81081 48889`
-  - **Mumbai Regional Lines**: `+91 81081 48887` • `+91 88985 07994` • `+91 96999 90990`
+  - **Mumbai Regional Lines**: `+91 81081 48887` • `+91 88985 07994` • `+91 96999 90990` • `+91 93249 53004`
   - **Gujarat Regional Desk**: `+91 73595 29343`
 - **Official Email Directory**:
   - **Project Mandates (Land / SRA / Redevelopment)**: `property@airealty.net.in`
   - **Sales & Commercial Desk**: `sales@airealty.net.in`
-  - **Executive Directorate**: `ajit@airealty.net.in`, `akash@airealty.net.in`, `revant@airealty.net.in`, `ikabal@airealty.net.in`
+  - **Executive Directorate**: `ajit@airealty.net.in`, `ashok@airealty.net.in`, `akash@airealty.net.in`, `revant@airealty.net.in`, `ikabal@airealty.net.in`
   - **Perennial Group Statutory Desk**: `perennialgroup@yahoo.com`
 - **Guiding Motto**: *"Customer satisfaction is our ultimate goal."*
 
